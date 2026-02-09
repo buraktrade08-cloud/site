@@ -10,6 +10,7 @@ import Gallery from "@/pages/Gallery";
 import Exhibitions from "@/pages/Exhibitions";
 import About from "@/pages/About";
 import Contact from "@/pages/Contact";
+import Studio from "@/pages/Studio";
 
 const queryClient = new QueryClient({
   defaultOptions: {
@@ -33,6 +34,7 @@ const App = () => {
               <Route path={ROUTE_PATHS.GALLERY} element={<Gallery />} />
               <Route path={ROUTE_PATHS.EXHIBITIONS} element={<Exhibitions />} />
               <Route path={ROUTE_PATHS.ABOUT} element={<About />} />
+              <Route path={ROUTE_PATHS.STUDIO} element={<Studio />} />
               <Route path={ROUTE_PATHS.CONTACT} element={<Contact />} />
               {/* Catch-all route to Home as a fallback */}
               <Route path="*" element={<Home />} />

@@ -25,8 +25,8 @@ export default function Home() {
       <section className="relative h-[95vh] flex items-center overflow-hidden">
         <div className="absolute inset-0 z-0">
           <img 
-            src={IMAGES.ARTIST_STUDIO_1} 
-            alt="Büşra Oruç Stüdyo"
+            src={IMAGES.HERO_BACKGROUND} 
+            alt="Sanat Arka Planı"
             className="w-full h-full object-cover opacity-40 scale-105"
           />
           <div className="absolute inset-0 bg-gradient-to-b from-background/50 via-transparent to-background/80" />
@@ -125,7 +125,7 @@ export default function Home() {
             >
               <div className="relative aspect-[4/5] rounded-[2rem] overflow-hidden shadow-2xl border-8 border-white dark:border-card">
                 <img 
-                  src={IMAGES.ABSTRACT_ART_2} 
+                  src={IMAGES.ARTIST_PORTRAIT_2} 
                   alt="Büşra Oruç Sanat Eseri" 
                   className="w-full h-full object-cover"
                 />

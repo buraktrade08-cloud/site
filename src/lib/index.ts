@@ -9,6 +9,7 @@ export const ROUTE_PATHS = {
   EXHIBITIONS: "/sergiler",
   ABOUT: "/hakkimda",
   CONTACT: "/iletisim",
+  STUDIO: "/atolye",
 } as const;
 
 /**
@@ -38,91 +39,89 @@ export interface Exhibition {
 }
 
 /**
- * Mock Gallery Data for Büşra Oruç Portfolio
+ * Büşra Şerif Oruç Sanat Portföyü - Eserler
  */
 export const artworks: Artwork[] = [
   {
     id: "1",
-    title: "Renklerin Senfonisi I",
-    description: "İçsel enerjinin ve duyguların tuvale yansıyan dinamik bir dışavurumu. 2026 serisinin ilk parçası.",
-    category: "Soyut",
-    imageUrl: IMAGES.ABSTRACT_ART_1,
-    year: 2026,
-    dimensions: "120x150 cm",
+    title: "Adalet",
+    description: "Figüratif anlatımın güçlü bir ifade diliyle ele alındığı, adalet temasını işleyen özgün bir eser.",
+    category: "Figüratif",
+    imageUrl: IMAGES.ARTWORK_1,
+    year: 2024,
+    dimensions: "Yağlı boya",
   },
   {
     id: "2",
-    title: "Kentsel Ritim",
-    description: "Modern şehir hayatının karmaşasını ve bitmek bilmeyen enerjisini temsil eden geometrik bir yaklaşım.",
-    category: "Modern",
-    imageUrl: IMAGES.ABSTRACT_ART_7,
-    year: 2026,
-    dimensions: "100x100 cm",
+    title: "İç Yolculuk",
+    description: "İnsanın iç dünyasını ve duygusal derinliğini konu eden, güçlü bir kompozisyon.",
+    category: "Figüratif",
+    imageUrl: IMAGES.ARTWORK_2,
+    year: 2024,
+    dimensions: "Akrilik",
   },
   {
     id: "3",
-    title: "Yeryüzü Katmanları",
-    description: "Toprağın dokusundan ve doğanın derinliklerinden ilham alan organik formların birleşimi.",
-    category: "Doğa",
-    imageUrl: IMAGES.ABSTRACT_ART_3,
-    year: 2025,
-    dimensions: "80x120 cm",
+    title: "Portre I",
+    description: "Kimlik ve kadın temasını işleyen, dramatik ışık kullanımıyla dikkat çeken bir çalışma.",
+    category: "Figüratif",
+    imageUrl: IMAGES.ARTWORK_3,
+    year: 2024,
+    dimensions: "Yağlı boya",
   },
   {
     id: "4",
-    title: "Sessizliğin Yankısı",
-    description: "Minimalist bir kompozisyon ile zihinsel huzuru ve dengeyi arayan meditatif bir çalışma.",
-    category: "Modern",
-    imageUrl: IMAGES.ABSTRACT_ART_9,
-    year: 2025,
-    dimensions: "110x110 cm",
+    title: "Portre II",
+    description: "İnsan figürünün özgün renk kullanımı ve duygusal yoğunlukla aktarıldığı bir eser.",
+    category: "Figüratif",
+    imageUrl: IMAGES.ARTWORK_4,
+    year: 2024,
+    dimensions: "Yağlı boya",
   },
   {
     id: "5",
-    title: "Zamanın İzleri",
-    description: "Geçmişin anıları ve geleceğin umutları arasında bir köprü kuran katmanlı bir soyutlama.",
-    category: "Soyut",
-    imageUrl: IMAGES.ABSTRACT_ART_5,
-    year: 2026,
-    dimensions: "140x100 cm",
-  },
-  {
-    id: "6",
-    title: "Baharda Uyanış",
-    description: "Doğanın canlanışını ve renklerin zaferini kutlayan enerjik ve canlı bir eser.",
-    category: "Doğa",
-    imageUrl: IMAGES.ABSTRACT_ART_10,
-    year: 2026,
-    dimensions: "90x90 cm",
-  },
-  {
-    id: "7",
-    title: "Işığın Dansı",
-    description: "Günün farklı saatlerindeki ışık oyunlarının tuval üzerindeki modern yorumu.",
-    category: "Modern",
-    imageUrl: IMAGES.ABSTRACT_ART_2,
-    year: 2026,
-    dimensions: "100x130 cm",
-  },
-  {
-    id: "8",
-    title: "Ruhun Renkleri",
-    description: "İnsanın iç dünyasındaki karmaşayı renk paletleriyle çözümleyen bir dışavurum.",
-    category: "Soyut",
-    imageUrl: IMAGES.ABSTRACT_ART_4,
-    year: 2025,
-    dimensions: "120x120 cm",
+    title: "Portre III",
+    description: "Figüratif anlatımın farklı bir bakış açısıyla yorumlandığı, çarpıcı bir kompozisyon.",
+    category: "Figüratif",
+    imageUrl: IMAGES.ARTWORK_5,
+    year: 2024,
+    dimensions: "Yağlı boya",
   },
 ];
 
 /**
- * Mock Exhibition Data for Büşra Oruç Portfolio
+ * Büşra Şerif Oruç - Sergi Geçmişi
  */
 export const exhibitions: Exhibition[] = [
   {
     id: "e1",
-    title: "Modern Vizyonlar 2026",
-    location: "Contemporary Istanbul, Galeri No:12",
+    title: "TURAN EROL 1. SANAT ÖDÜLLERİ",
+    location: "Ankara",
+    date: "13 Şubat 2026",
+    description: "Türk sanatının önemli isimlerinin bir araya geldiği prestijli sanat ödülleri etkinliği.",
+    imageUrl: IMAGES.EXHIBITION_1,
+    status: "Gelecek",
+  },
+  {
+    id: "e2",
+    title: "Karma Resim Sergisi",
+    location: "Agora Sanat Galerisi, Ankara",
+    date: "2024",
+    description: "Ankara'nın önde gelen genç sanatçılarının eserlerinin sergilendiği karma resim sergisi.",
+    imageUrl: IMAGES.EXHIBITION_2,
+    status: "Geçmiş",
+  },
+  {
+    id: "e3",
+    title: "Şiddetsiz Bir Toplum İçin Sanat İle El Ele",
+    location: "Neşet Ertaş Kültür ve Sanat Merkezi, Ankara",
+    date: "2024",
+    description: "Toplumsal farkındalık yaratmak amacıyla düzenlenen özel resim sergisi.",
+    imageUrl: IMAGES.EXHIBITION_3,
+    status: "Geçmiş",
+  },
+];
+"Contemporary Istanbul, Galeri No:12",
     date: "15 Mayıs - 30 Haziran 2026",
     description: "Büşra Oruç'un son iki yılda ürettiği en seçkin eserlerden oluşan kapsamlı solo sergisi.",
     imageUrl: IMAGES.EXHIBITION_1,

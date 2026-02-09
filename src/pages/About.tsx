@@ -15,14 +15,14 @@ const milestones = [
     description: "Gazi Üniversitesi'nde pedagojik formasyon eğitimini tamamlama."
   },
   {
-    year: "2023-2026",
+    year: "2023-Devam",
     title: "Eğitim Deneyimi",
     description: "Ankara'daki çeşitli okullarda Görsel Sanatlar Öğretmeni olarak görev alma."
   },
   {
-    year: "2024-2026",
-    title: "Sanatsal Üretim",
-    description: "Birçok karma ve bireysel sergiye katılım, figüratif anlatım odaklı eserler."
+    year: "2024-Devam",
+    title: "Sergi Katılımları",
+    description: "Karma Resim Sergisi (Agora Sanat Galerisi), Şiddetsiz Bir Toplum İçin (Neşet Ertaş Kültür Merkezi)"
   }
 ];
 
@@ -42,11 +42,11 @@ export default function About() {
               Ressamın Hikayesi
             </span>
             <h1 className="text-5xl md:text-7xl font-bold tracking-tighter leading-tight">
-              Büşra Oruç
+              Büşra Şerif Oruç
             </h1>
             <p className="text-xl text-muted-foreground mt-6 max-w-2xl leading-relaxed">
-              Renklerin enerjisini ve formların sessiz dilini kullanarak,
-              izleyiciyi duygu yüklü bir yolculuğa davet ediyorum.
+              Figüratif anlatımın gücüyle insan ruhunun derinliklerini keşfeden,
+              kimlik, kadın ve toplumsal değerleri özgün bir dille aktaran ressam.
             </p>
           </motion.div>
 
@@ -58,7 +58,7 @@ export default function About() {
             >
               <img 
                 src={IMAGES.ARTIST_PORTRAIT_1} 
-                alt="Büşra Oruç Portre" 
+                alt="Sanat Atölyesi" 
                 className="w-full h-full object-cover transition-transform duration-700 hover:scale-105"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent" />
@@ -66,22 +66,22 @@ export default function About() {
 
             <motion.div variants={fadeInUp} className="space-y-8">
               <div className="space-y-4">
-                <h2 className="text-3xl font-bold">Sanat Yolculuğum</h2>
+                <h2 className="text-3xl font-bold">Hakkımda</h2>
                 <p className="text-muted-foreground leading-relaxed">
-                  1998 doğumlu Büşra Ş. Oruç, Kırıkkale Üniversitesi Güzel Sanatlar Fakültesi Resim Bölümü'nden 2022 yılında mezun olmuş, ardından Gazi Üniversitesi'nde pedagojik formasyon eğitimini tamamlamıştır.
+                  1998 doğumlu Büşra Şerif Oruç, Kırıkkale Üniversitesi Güzel Sanatlar Fakültesi Resim Bölümü'nden 2022 yılında mezun olmuş, ardından Gazi Üniversitesi'nde pedagojik formasyon eğitimini tamamlamıştır.
                 </p>
                 <p className="text-muted-foreground leading-relaxed">
-                  Ankara'daki çeşitli okullarda Görsel Sanatlar Öğretmeni olarak görev yapmış, sanat eğitiminde rehberlik, sergi organizasyonu ve öğrenci portfolyo yönetimi konularında deneyim kazanmıştır.
+                  Ankara'daki çeşitli okullarda Görsel Sanatlar Öğretmeni olarak görev yapmış, sanat eğitiminde rehberlik, sergi organizasyonu ve öğrenci portföyü yönetimi deneyimi kazanmıştır.
                 </p>
                 <p className="text-muted-foreground leading-relaxed">
-                  Yağlı boya, akrilik, karakalem ve sulu boya gibi tekniklerde çalışmalar üreten Oruç, birçok karma ve bireysel sergiye katılmıştır.
+                  Yağlı boya, akrilik, karakalem ve sulu boya gibi tekniklerde üretim yapan Oruç, birçok karma ve bireysel sergiye katılmıştır.
                 </p>
               </div>
 
               <div className="bg-accent/30 p-8 rounded-2xl border border-accent/20">
                 <h3 className="font-semibold text-lg mb-2">Sanatsal Yaklaşımım</h3>
                 <p className="text-sm text-accent-foreground italic">
-                  Sanatsal üretimlerinde figüratif anlatımı güçlü bir ifade diliyle ele alır; kimlik, kadın, çocuklar, güç ve içsel çatışmalar temaları çalışmalarının merkezinde yer alır. Farklı teknik ve yüzeylerle çalışan sanatçı, özgün renk kullanımı ve dramatik kompozisyonlarıyla dikkat çeker. Eserlerinde insanın iç dünyasını, toplumsal değerleri ve duygusal derinliği konu edinmektedir.
+                  Sanatsal üretimlerinde figüratif anlatımı güçlü bir ifade diliyle ele alır; kimlik, kadın, çocuk, güç ve içsel temaları çalışmalarında merkezi olarak işler. Farklı teknik ve yüzeylerle çalışan sanatçı, özgün renk kullanımı ve dramatik kompozisyonlarıyla dikkat çeker. Eserlerinde insanın iç dünyasını, toplumsal değerleri ve duygusal derinliği konu edinir.
                 </p>
               </div>
             </motion.div>
@@ -94,17 +94,17 @@ export default function About() {
           >
             <img 
               src={IMAGES.ARTIST_STUDIO_1} 
-              alt="Büşra Oruç Atölyesi" 
+              alt="Sanat Atölyesi" 
               className="w-full h-full object-cover grayscale transition-all duration-700 group-hover:grayscale-0 group-hover:scale-105"
             />
             <div className="absolute inset-0 bg-black/40 flex items-center justify-center p-8">
               <div className="text-center max-w-xl">
                 <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
-                  Atölye ve Süreç
+                  Yaratım Süreci
                 </h2>
                 <p className="text-white/80">
-                  Yağlı boya, akrilik, karakalem ve sulu boya teknikleriyle çalıştığım atölyem,
-                  figüratif anlatımın güçlü ifade diliyle buluştuğu yaratım alanım.
+                  Yağlı boya, akrilik, karakalem ve sulu boya teknikleriyle çalışarak,
+                  figüratif anlatımın güçlü ifade diliyle özgün eserler üretiyorum.
                 </p>
               </div>
             </div>

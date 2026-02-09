@@ -79,7 +79,7 @@ export default function Contact() {
           >
             <div className="relative aspect-video rounded-2xl overflow-hidden shadow-2xl group">
               <img 
-                src={IMAGES.ARTIST_STUDIO_5} 
+                src={IMAGES.ARTIST_STUDIO_2} 
                 alt="Büşra Oruç Atölye" 
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 opacity-80"
               />
@@ -97,19 +97,27 @@ export default function Contact() {
                 </div>
                 <div>
                   <h4 className="text-lg font-semibold">E-posta</h4>
-                  <p className="text-muted-foreground">merhaba@busraoruc.art</p>
-                  <p className="text-muted-foreground">info@busraoruc.com</p>
+                  <p className="text-muted-foreground">byro32_06@hotmail.com</p>
                 </div>
               </div>
 
               <div className="flex items-start gap-4">
                 <div className="p-3 bg-accent/20 rounded-lg text-accent-foreground">
+                  <Phone className="w-6 h-6" />
+                </div>
+                <div>
+                  <h4 className="text-lg font-semibold">Telefon</h4>
+                  <p className="text-muted-foreground">+90 538 479 13 13</p>
+                </div>
+              </div>
+
+              <div className="flex items-start gap-4">
+                <div className="p-3 bg-secondary rounded-lg text-secondary-foreground">
                   <MapPin className="w-6 h-6" />
                 </div>
                 <div>
                   <h4 className="text-lg font-semibold">Konum</h4>
-                  <p className="text-muted-foreground">Nişantaşı Sanat Atölyeleri, Kat: 3</p>
-                  <p className="text-muted-foreground">Şişli, İstanbul / Türkiye</p>
+                  <p className="text-muted-foreground">Ankara</p>
                 </div>
               </div>
 
@@ -241,7 +249,7 @@ export default function Contact() {
           {/* Placeholder for real map if needed */}
           <div className="w-full h-full grayscale opacity-40 pointer-events-none">
              <img 
-              src={IMAGES.GALLERY_INTERIOR_4} 
+              src={IMAGES.ARTIST_STUDIO_1} 
               alt="Location Background" 
               className="w-full h-full object-cover"
             />

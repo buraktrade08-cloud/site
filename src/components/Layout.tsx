@@ -31,6 +31,7 @@ export function Layout({ children }: LayoutProps) {
     { name: "Galeri", path: ROUTE_PATHS.GALLERY },
     { name: "Sergiler", path: ROUTE_PATHS.EXHIBITIONS },
     { name: "Hakkımda", path: ROUTE_PATHS.ABOUT },
+    { name: "Atölye", path: ROUTE_PATHS.STUDIO },
     { name: "İletişim", path: ROUTE_PATHS.CONTACT },
   ];
 
@@ -54,7 +55,7 @@ export function Layout({ children }: LayoutProps) {
               <Palette size={24} />
             </div>
             <span className="text-xl font-bold tracking-tighter text-foreground">
-              BÜŞRA ORUÇ
+              BÜŞRA ŞERİF ORUÇ
             </span>
           </Link>
 
@@ -142,7 +143,7 @@ export function Layout({ children }: LayoutProps) {
                 <div className="w-8 h-8 bg-primary rounded-lg flex items-center justify-center text-primary-foreground">
                   <Palette size={18} />
                 </div>
-                <span className="text-lg font-bold tracking-tighter">BÜŞRA ORUÇ</span>
+                <span className="text-lg font-bold tracking-tighter">BÜŞRA ŞERİF ORUÇ</span>
               </Link>
               <p className="text-muted-foreground max-w-xs leading-relaxed">
                 Modern sanatın renkli ve dinamik dünyasında, her fırça darbesiyle yeni bir hikaye anlatıyorum. 
