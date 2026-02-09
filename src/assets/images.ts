@@ -40,16 +40,12 @@ export const IMAGES = {
   EXHIBITION_7: "https://images.unsplash.com/photo-1769117618900-14392ace3546?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Mzc5NTV8MHwxfHNlYXJjaHwzfHxhcnQlMjBleGhpYml0aW9uJTIwb3BlbmluZ3xlbnwwfDB8fHwxNzcwNTIwODgxfDA&ixlib=rb-4.1.0&q=80&w=1080",
   EXHIBITION_8: "https://images.unsplash.com/photo-1738911741936-e1eb0b6217d2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Mzc5NTV8MHwxfHNlYXJjaHw0fHxhcnQlMjBleGhpYml0aW9uJTIwb3BlbmluZ3xlbnwwfDB8fHwxNzcwNTIwODgxfDA&ixlib=rb-4.1.0&q=80&w=1080",
   EXHIBITION_9: "https://images.unsplash.com/photo-1770086962009-475699f5633d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Mzc5NTV8MHwxfHNlYXJjaHw2fHxhcnQlMjBleGhpYml0aW9uJTIwb3BlbmluZ3xlbnwwfDB8fHwxNzcwNTIwODgxfDA&ixlib=rb-4.1.0&q=80&w=1080",
-  GALLERY_INTERIOR_1: "https://images.unsplash.com/photo-1565799515768-2dcfd834625c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDU2OTd8MHwxfHNlYXJjaHwxfHxhcnQlMjBnYWxsZXJ5JTIwaW50ZXJpb3IlMjBtb2Rlcm58ZW58MHwwfHx8MTc3MDUyMDg4MHww&ixlib=rb-4.1.0&q=80&w=1080",
-  GALLERY_INTERIOR_10: "https://images.unsplash.com/photo-1766128867274-563630f6e2e6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDU2OTd8MHwxfHNlYXJjaHwxMHx8YXJ0JTIwZ2FsbGVyeSUyMGludGVyaW9yJTIwbW9kZXJufGVufDB8MHx8fDE3NzA1MjA4ODB8MA&ixlib=rb-4.1.0&q=80&w=1080",
-  GALLERY_INTERIOR_2: "https://images.unsplash.com/photo-1764922168474-8048361bc764?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDU2OTd8MHwxfHNlYXJjaHwzfHxhcnQlMjBnYWxsZXJ5JTIwaW50ZXJpb3IlMjBtb2Rlcm58ZW58MHwwfHx8MTc3MDUyMDg4MHww&ixlib=rb-4.1.0&q=80&w=1080",
-  GALLERY_INTERIOR_3: "https://images.unsplash.com/photo-1720802706542-a5d0c20219d1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDU2OTd8MHwxfHNlYXJjaHw0fHxhcnQlMjBnYWxsZXJ5JTIwaW50ZXJpb3IlMjBtb2Rlcm58ZW58MHwwfHx8MTc3MDUyMDg4MHww&ixlib=rb-4.1.0&q=80&w=1080",
-  GALLERY_INTERIOR_4: "https://images.unsplash.com/photo-1766801848077-31bd1900efcc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDU2OTd8MHwxfHNlYXJjaHwyfHxhcnQlMjBnYWxsZXJ5JTIwaW50ZXJpb3IlMjBtb2Rlcm58ZW58MHwwfHx8MTc3MDUyMDg4MHww&ixlib=rb-4.1.0&q=80&w=1080",
-  GALLERY_INTERIOR_5: "https://images.unsplash.com/photo-1767294275107-acfdd4d7a8c6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDU2OTd8MHwxfHNlYXJjaHw1fHxhcnQlMjBnYWxsZXJ5JTIwaW50ZXJpb3IlMjBtb2Rlcm58ZW58MHwwfHx8MTc3MDUyMDg4MHww&ixlib=rb-4.1.0&q=80&w=1080",
-  GALLERY_INTERIOR_6: "https://images.unsplash.com/photo-1769117619995-78fc971f041b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDU2OTd8MHwxfHNlYXJjaHw2fHxhcnQlMjBnYWxsZXJ5JTIwaW50ZXJpb3IlMjBtb2Rlcm58ZW58MHwwfHx8MTc3MDUyMDg4MHww&ixlib=rb-4.1.0&q=80&w=1080",
-  GALLERY_INTERIOR_7: "https://images.unsplash.com/photo-1759803534574-8e703d9914c9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDU2OTd8MHwxfHNlYXJjaHw3fHxhcnQlMjBnYWxsZXJ5JTIwaW50ZXJpb3IlMjBtb2Rlcm58ZW58MHwwfHx8MTc3MDUyMDg4MHww&ixlib=rb-4.1.0&q=80&w=1080",
-  GALLERY_INTERIOR_8: "https://images.unsplash.com/photo-1766128867459-064fcbfa8781?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDU2OTd8MHwxfHNlYXJjaHw4fHxhcnQlMjBnYWxsZXJ5JTIwaW50ZXJpb3IlMjBtb2Rlcm58ZW58MHwwfHx8MTc3MDUyMDg4MHww&ixlib=rb-4.1.0&q=80&w=1080",
-  GALLERY_INTERIOR_9: "https://images.unsplash.com/photo-1769667693205-bfae7aefb59a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDU2OTd8MHwxfHNlYXJjaHw5fHxhcnQlMjBnYWxsZXJ5JTIwaW50ZXJpb3IlMjBtb2Rlcm58ZW58MHwwfHx8MTc3MDUyMDg4MHww&ixlib=rb-4.1.0&q=80&w=1080",
+  GALLERY_INTERIOR_1: "https://ibb.co/DDxZ3Frj",
+  GALLERY_INTERIOR_10: "https://ibb.co/rRbtvS4Z",
+  GALLERY_INTERIOR_2: "https://ibb.co/tMTcB6TK",
+  GALLERY_INTERIOR_3: "https://ibb.co/9mwx87CT",
+  GALLERY_INTERIOR_4: "https://ibb.co/wFsgyVGG",
+  GALLERY_INTERIOR_5: "https://ibb.co/9m6Q4bwR",
 } as const;
 
 export type ImageKey = keyof typeof IMAGES;
