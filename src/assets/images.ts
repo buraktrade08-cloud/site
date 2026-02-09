@@ -18,7 +18,7 @@ export const IMAGES = {
   ARTIST_STUDIO_2: "https://images.unsplash.com/photo-1513364776144-60967b0f800f?q=80&w=1920",
   
   // Sergi Görselleri
-  EXHIBITION_1: "https://images.unsplash.com/photo-1577083552431-6e5fd01988ec?q=80&w=1920",
+  EXHIBITION_1: "https://i.ibb.co/fz4Z8qMR/Ekran-g-r-nt-s-2026-02-09-203716.png",
   EXHIBITION_2: "https://images.unsplash.com/photo-1531243269054-5ebf6f34081e?q=80&w=1920",
   EXHIBITION_3: "https://images.unsplash.com/photo-1577083552431-6e5fd01988ec?q=80&w=1920",
   
