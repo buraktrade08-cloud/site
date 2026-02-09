@@ -180,7 +180,7 @@ export function Layout({ children }: LayoutProps) {
                 Sergi duyuruları ve yeni eserlerimden haberdar olmak için bana ulaşın.
               </p>
               <div className="pt-2">
-                <p className="text-foreground font-medium">İstanbul, Türkiye</p>
+                <p className="text-foreground font-medium">Ankara, Türkiye</p>
                 <p className="text-muted-foreground text-sm">© 2026 Tüm Hakları Saklıdır.</p>
               </div>
             </div>
