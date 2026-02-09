@@ -10,7 +10,7 @@ export const IMAGES = {
   ARTWORK_5: "/artworks/prtf3.jpg",
   
   // Profil ve Arka Plan Görselleri (Genel Sanat)
-  ARTIST_PORTRAIT_1: "https://images.unsplash.com/photo-1460661419201-fd4cecdf8a8b?q=80&w=1920",
+  ARTIST_PORTRAIT_1: "https://ibb.co/bgc7m9Hn",
   ARTIST_PORTRAIT_2: "https://images.unsplash.com/photo-1578301978693-85fa9c0320b9?q=80&w=1920",
   
   // Atölye Görselleri
