@@ -39,13 +39,14 @@ export interface Exhibition {
 }
 
 /**
- * Büşra Şerif Oruç Sanat Portföyü - Eserler
+ * Büşra Şerif Oruç – Eserler
  */
 export const artworks: Artwork[] = [
   {
     id: "1",
     title: "Adalet",
-    description: "Figüratif anlatımın güçlü bir ifade diliyle ele alındığı, adalet temasını işleyen özgün bir eser.",
+    description:
+      "Figüratif anlatımın güçlü bir ifade diliyle ele alındığı, adalet temasını işleyen özgün bir eser.",
     category: "Figüratif",
     imageUrl: IMAGES.ARTWORK_1,
     year: 2024,
@@ -54,7 +55,8 @@ export const artworks: Artwork[] = [
   {
     id: "2",
     title: "İç Yolculuk",
-    description: "İnsanın iç dünyasını ve duygusal derinliğini konu eden, güçlü bir kompozisyon.",
+    description:
+      "İnsanın iç dünyasını ve duygusal derinliğini konu eden, güçlü bir kompozisyon.",
     category: "Figüratif",
     imageUrl: IMAGES.ARTWORK_2,
     year: 2024,
@@ -63,7 +65,8 @@ export const artworks: Artwork[] = [
   {
     id: "3",
     title: "Portre I",
-    description: "Kimlik ve kadın temasını işleyen, dramatik ışık kullanımıyla dikkat çeken bir çalışma.",
+    description:
+      "Kimlik ve kadın temasını işleyen, dramatik ışık kullanımıyla dikkat çeken bir çalışma.",
     category: "Figüratif",
     imageUrl: IMAGES.ARTWORK_3,
     year: 2024,
@@ -72,7 +75,8 @@ export const artworks: Artwork[] = [
   {
     id: "4",
     title: "Portre II",
-    description: "İnsan figürünün özgün renk kullanımı ve duygusal yoğunlukla aktarıldığı bir eser.",
+    description:
+      "İnsan figürünün özgün renk kullanımı ve duygusal yoğunlukla aktarıldığı bir eser.",
     category: "Figüratif",
     imageUrl: IMAGES.ARTWORK_4,
     year: 2024,
@@ -81,7 +85,8 @@ export const artworks: Artwork[] = [
   {
     id: "5",
     title: "Portre III",
-    description: "Figüratif anlatımın farklı bir bakış açısıyla yorumlandığı, çarpıcı bir kompozisyon.",
+    description:
+      "Figüratif anlatımın farklı bir bakış açısıyla yorumlandığı, çarpıcı bir kompozisyon.",
     category: "Figüratif",
     imageUrl: IMAGES.ARTWORK_5,
     year: 2024,
@@ -90,7 +95,7 @@ export const artworks: Artwork[] = [
 ];
 
 /**
- * Büşra Şerif Oruç - Sergi Geçmişi
+ * Büşra Şerif Oruç – Sergiler
  */
 export const exhibitions: Exhibition[] = [
   {
@@ -98,7 +103,8 @@ export const exhibitions: Exhibition[] = [
     title: "TURAN EROL 1. SANAT ÖDÜLLERİ",
     location: "Ankara",
     date: "13 Şubat 2026",
-    description: "Türk sanatının önemli isimlerinin bir araya geldiği prestijli sanat ödülleri etkinliği.",
+    description:
+      "Türk sanatının önemli isimlerinin bir araya geldiği prestijli sanat ödülleri etkinliği.",
     imageUrl: IMAGES.EXHIBITION_1,
     status: "Gelecek",
   },
@@ -107,7 +113,8 @@ export const exhibitions: Exhibition[] = [
     title: "Karma Resim Sergisi",
     location: "Agora Sanat Galerisi, Ankara",
     date: "2024",
-    description: "Ankara'nın önde gelen genç sanatçılarının eserlerinin sergilendiği karma resim sergisi.",
+    description:
+      "Ankara'nın önde gelen genç sanatçılarının eserlerinin sergilendiği karma resim sergisi.",
     imageUrl: IMAGES.EXHIBITION_2,
     status: "Geçmiş",
   },
@@ -116,7 +123,8 @@ export const exhibitions: Exhibition[] = [
     title: "Şiddetsiz Bir Toplum İçin Sanat İle El Ele",
     location: "Neşet Ertaş Kültür ve Sanat Merkezi, Ankara",
     date: "2024",
-    description: "Toplumsal farkındalık yaratmak amacıyla düzenlenen özel resim sergisi.",
+    description:
+      "Toplumsal farkındalık yaratmak amacıyla düzenlenen özel resim sergisi.",
     imageUrl: IMAGES.EXHIBITION_3,
     status: "Geçmiş",
   },
