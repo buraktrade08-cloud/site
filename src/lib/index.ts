@@ -49,7 +49,7 @@ export const artworks: Artwork[] = [
       "Figüratif anlatımın güçlü bir ifade diliyle ele alındığı, adalet temasını işleyen özgün bir eser.",
     category: "Figüratif",
     imageUrl: IMAGES.ARTWORK_1,
-    year: 2024,
+    year: 2025,
     dimensions: "Yağlı boya",
   },
   {
@@ -59,7 +59,7 @@ export const artworks: Artwork[] = [
       "İnsanın iç dünyasını ve duygusal derinliğini konu eden, güçlü bir kompozisyon.",
     category: "Figüratif",
     imageUrl: IMAGES.ARTWORK_2,
-    year: 2024,
+    year: 2025,
     dimensions: "Akrilik",
   },
   {
@@ -69,7 +69,7 @@ export const artworks: Artwork[] = [
       "Kimlik ve kadın temasını işleyen, dramatik ışık kullanımıyla dikkat çeken bir çalışma.",
     category: "Figüratif",
     imageUrl: IMAGES.ARTWORK_3,
-    year: 2024,
+    year: 2023,
     dimensions: "Yağlı boya",
   },
   {
