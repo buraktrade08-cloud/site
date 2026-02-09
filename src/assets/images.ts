@@ -11,7 +11,7 @@ export const IMAGES = {
   
   // Profil ve Arka Plan Görselleri (Genel Sanat)
   ARTIST_PORTRAIT_1: "https://i.ibb.co/WWms5JD1/b-ra-oru.jpg",
-  ARTIST_PORTRAIT_2: "https://images.unsplash.com/photo-1578301978693-85fa9c0320b9?q=80&w=1920",
+  ARTIST_PORTRAIT_2: "https://i.ibb.co/Mx3XyBXH/soyut-tablolar-ve-anlamlari-eedc.jpg",
   
   // Atölye Görselleri
   ARTIST_STUDIO_1: "https://images.unsplash.com/photo-1513364776144-60967b0f800f?q=80&w=1920",
